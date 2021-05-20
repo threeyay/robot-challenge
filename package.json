@@ -1,0 +1,19 @@
+{
+  "name": "drone-challenge",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "watch": "yarn watch-client & yarn watch-api",
+    "watch-api": "node src/api.js",
+    "watch-client": "yarn poi src/client.js --serve"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0",
+    "poi": "^12.7.3",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-fetch-hook": "^1.7.1"
+  }
+}

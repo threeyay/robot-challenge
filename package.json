@@ -15,5 +15,8 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-fetch-hook": "^1.7.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
   }
 }
